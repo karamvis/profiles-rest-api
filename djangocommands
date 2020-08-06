@@ -8,3 +8,18 @@ python manage.py makemigrations profiles_api
 python manage.py migrate
 
 python manage.py createsuperuser
+
+vagrant init
+vagrant up
+vagrant ssh
+
+
+python -m venv <path>
+source <path>/bin/activate
+deactivate
+
+
+pip install -r requirement.txt
+
+
+vagrant init senglin/win-10-enterprise-vs2015community  --box-version 1.0.0
